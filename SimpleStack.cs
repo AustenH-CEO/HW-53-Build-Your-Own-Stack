@@ -47,7 +47,8 @@ namespace Build_Stack.StackFile
         {
             foreach(string input in items.Reverse())
             {
-                Console.WriteLine(input);
+                if(input != null)
+                    Console.WriteLine(input);
             }
         }
     }
